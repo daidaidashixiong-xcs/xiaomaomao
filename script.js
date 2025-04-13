@@ -40,8 +40,8 @@ noButton.addEventListener("click", function() {
     if (clickCount === 1) mainImage.src = "images/shocked.png"; // 震惊
     if (clickCount === 2) mainImage.src = "images/images/8551744522389_.pic.jpg";   // 思考
     if (clickCount === 3) mainImage.src = "images/angry.png";   // 生气
-    if (clickCount === 4) mainImage.src = "8581744522394_.pic.jpg";  // 哭
-    if (clickCount >= 5) mainImage.src = "8581744522394_.pic.jpg";  // 之后一直是哭
+    if (clickCount === 4) mainImage.src = "images/8581744522394_.pic.jpg";  // 哭
+    if (clickCount >= 5) mainImage.src = "images/8581744522394_.pic.jpg";  // 之后一直是哭
 
 });
 
@@ -50,7 +50,7 @@ yesButton.addEventListener("click", function() {
     document.body.innerHTML = `
         <div class="yes-screen">
             <h1 class="yes-text">!永远爱你，要和我一直在一起!!!( >᎑<)♡︎ᐝ</h1>
-            <img src="images/hug.png" alt="拥抱" class="yes-image">
+            <img src="images/8561744522390_.pic.jpg" alt="拥抱" class="yes-image">
         </div>
     `;
 
